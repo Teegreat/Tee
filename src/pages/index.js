@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Head from "../components/head"
 import Typist from "react-typist"
@@ -18,7 +19,15 @@ const HomePage = () => {
       </h1>
 
       <h2 style={{ marginTop: "2.5rem" }}>Hello there!</h2>
-      <h2>I'm Tee and I derive joy in building websites that rocks!!!</h2>
+      <h3>
+        I'm Tee and I specialize in building websites that help businesses excel
+        online.
+      </h3>
+
+      <p>
+        If you are a business owner seeking an online presence or in need of a
+        web developer, please feel free to contact me here.
+      </p>
     </Layout>
   )
 }
