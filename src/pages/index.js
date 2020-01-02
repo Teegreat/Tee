@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Head from "../components/head"
 import Typist from "react-typist"
+import indexStyles from "./index.module.scss"
 
 const HomePage = () => {
   return (
@@ -11,10 +12,10 @@ const HomePage = () => {
       <h1>
         <Typist avgTypingDelay={130} stdTypingDelay={30}>
           <span>Web Consultant...</span>
-          <Typist.Backspace count={17} delay={3000} />
+          <Typist.Backspace count={17} delay={2000} />
           <span>Web Developer...</span>
-          <Typist.Backspace count={22} delay={3000} />
-          <span>WordPress Developer</span>
+          <Typist.Backspace count={22} delay={2000} />
+          <span>WordPress Expert...</span>
         </Typist>
       </h1>
 
@@ -26,8 +27,10 @@ const HomePage = () => {
 
       <p style={{ lineHeight: "1.5" }}>
         If you are a business owner seeking an online presence or in need of a
-        web developer, please feel free to contact me here.
+        web developer, please feel free to contact me{" "}
+        <Link to="/contact">here</Link>.
       </p>
+      <button className={indexStyles.button}>Hire Me</button>
     </Layout>
   )
 }
