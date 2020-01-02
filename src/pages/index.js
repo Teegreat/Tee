@@ -19,12 +19,12 @@ const HomePage = () => {
       </h1>
 
       <h2 style={{ marginTop: "2.5rem" }}>Hello there!</h2>
-      <h3>
+      <h3 style={{ lineHeight: "1.5" }}>
         I'm Tee and I specialize in building websites that help businesses excel
         online.
       </h3>
 
-      <p>
+      <p style={{ lineHeight: "1.5" }}>
         If you are a business owner seeking an online presence or in need of a
         web developer, please feel free to contact me here.
       </p>
