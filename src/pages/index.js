@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <Layout>
       <Head title="Home" />
-      <h1>
+      <h1 style={{ color: "#655757" }}>
         <Typist avgTypingDelay={130} stdTypingDelay={30}>
           <span>Web Consultant...</span>
           <Typist.Backspace count={17} delay={2000} />
@@ -30,7 +30,11 @@ const HomePage = () => {
         web developer, please feel free to contact me{" "}
         <Link to="/contact">here</Link>.
       </p>
-      <button className={indexStyles.button}>Hire Me</button>
+      <button className={indexStyles.button}>
+        <Link className={indexStyles.button} to="/contact">
+          Hire Me
+        </Link>
+      </button>
     </Layout>
   )
 }
