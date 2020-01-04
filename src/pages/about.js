@@ -9,7 +9,7 @@ import Head from "../components/head"
 
 export const query = graphql`
   query {
-    file(relativePath: { eq: "images/mandev.jpg" }) {
+    file(relativePath: { eq: "images/profile.jpg" }) {
       childImageSharp {
         fixed(width: 150) {
           src
