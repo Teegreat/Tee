@@ -37,6 +37,12 @@ const aboutPage = props => {
         work remotely for both local and international clients.
       </p>
       <p>
+        I build websites for my clients using WordPress and gatsby. Also, if you
+        want full branding for your startup business or want to take your
+        business to the next level I am very much available to help you achieve
+        your goals.
+      </p>
+      <p>
         <Link to="/contact">Want to work with me? Reach out</Link>
       </p>
 

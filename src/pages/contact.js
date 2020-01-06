@@ -1,19 +1,18 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import Contact from "../components/contact"
+import contactStyle from "./contact.module.scss"
+
 import Head from "../components/head"
 
 const contactUs = () => {
   return (
     <Layout>
       <Head title="Contact" />
-      <h1>Contact</h1>
-      <p>
-        The best way to reach me is via twitter{" "}
-        <a href="https://twitter.com" target="_blank">
-          @tee
-        </a>
-      </p>
+      <h1 className={contactStyle.center}>Please Leave a Message</h1>
+
+      <Contact />
     </Layout>
   )
 }
