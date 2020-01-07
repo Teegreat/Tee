@@ -30,9 +30,9 @@ const aboutPage = props => {
   return (
     <Layout>
       <Head title="About Me" />
-      <h1>About Me</h1>
+      {/* <h1 style={{ marginBottom: "1rem" }}>About Me</h1> */}
       <div>{profilePicture}</div>
-      <p>
+      <p style={{ marginTop: "1rem" }}>
         I'm a Self taught front-end web developer based in Abuja, Nigeria. I do
         work remotely for both local and international clients.
       </p>
