@@ -31,7 +31,11 @@ const HomePage = () => {
         <Link to="/contact">here</Link>.
       </p>
       <button className={indexStyles.button}>
-        <Link className={indexStyles.button} to="/contact">
+        <Link
+          className={indexStyles.button}
+          style={{ textDecoration: "none" }}
+          to="/contact"
+        >
           Hire Me
         </Link>
       </button>

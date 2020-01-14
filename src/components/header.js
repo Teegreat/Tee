@@ -22,11 +22,13 @@ const Header = () => {
           {data.site.siteMetadata.title}
         </Link>
       </h1> */}
-      <img
-        src={Logo}
-        alt="Tee"
-        style={{ maxWidth: "70%", marginTop: "2rem", marginBottom: ".5rem" }}
-      />
+      <a href="http://teethefreelancer.netlify.com/">
+        <img
+          src={Logo}
+          alt="Tee"
+          style={{ maxWidth: "70%", marginTop: "2rem", marginBottom: ".5rem" }}
+        />
+      </a>
       <nav>
         <ul className={headerStyles.navList}>
           <li>

@@ -69,7 +69,11 @@ const aboutPage = props => {
       </p>
       <p>Want to work with me?</p>
       <button className={indexStyles.button}>
-        <Link className={indexStyles.button} to="/contact">
+        <Link
+          className={indexStyles.button}
+          style={{ textDecoration: "none" }}
+          to="/contact"
+        >
           Let's Talk !
         </Link>
       </button>
