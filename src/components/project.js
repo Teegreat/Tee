@@ -1,8 +1,8 @@
 import React from "react"
 import bootstrap from "../components/bootstrap.min.css"
 import Logo from "../images/coming-soon.jpg"
-import Redemption from "../images/redemption-blog.png"
-import Eggsfertility from "../images/eggsfertitlity.png"
+import Redemption from "../images/redemption-blog.jpg"
+import Eggsfertility from "../images/eggsfertitlity.jpg"
 import Zuma from "../images/zuma-publishing.jpg"
 
 import indexStyles from "../pages/index.module.scss"
