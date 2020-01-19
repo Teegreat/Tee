@@ -32,17 +32,17 @@ const aboutPage = props => {
       <Head title="About Me" />
       {/* <h1 style={{ marginBottom: "1rem" }}>About Me</h1> */}
       <div>{profilePicture}</div>
-      <p style={{ marginTop: "1rem" }}>
+      <p style={{ marginTop: "1rem", fontSize: "20px" }}>
         I'm a Self taught front-end web developer based in Abuja, Nigeria. I do
         work remotely for both local and international clients.
       </p>
-      <p>
+      <p style={{ fontSize: "20px" }}>
         I build websites for my clients using WordPress and gatsby. Also, if you
         want full branding for your startup business or want to take your
         business to the next level I am very much available to help you achieve
         your goals.
       </p>
-      <p>
+      <p style={{ fontSize: "20px" }}>
         <Link to="/contact">Want to work with me? Reach out</Link>
       </p>
 
@@ -59,15 +59,15 @@ const aboutPage = props => {
       <br />
       <br />
       <h1>Why Work With Me</h1>
-      <p>
+      <p style={{ fontSize: "20px" }}>
         If there's one thing I love doing, is developing good websites for my
         clients to give them a unique online presence.
       </p>
-      <p>
+      <p style={{ fontSize: "20px" }}>
         I've spent many years trying to be perfect at what I do, and while I'll
         never be perfect, I do my very best to give you the best.
       </p>
-      <p>Want to work with me?</p>
+      <p style={{ fontSize: "20px" }}>Want to work with me?</p>
       <button className={indexStyles.button}>
         <Link
           className={indexStyles.button}
