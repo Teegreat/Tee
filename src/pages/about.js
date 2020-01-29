@@ -23,7 +23,7 @@ const aboutPage = props => {
   const profilePicture = (
     <img
       src={props.data.file.childImageSharp.fixed.src}
-      alt=""
+      alt="Toyin"
       className={aboutStyle.profilePicture}
     />
   )
