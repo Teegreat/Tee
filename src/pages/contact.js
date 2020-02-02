@@ -28,7 +28,7 @@ const contactUs = () => {
           <FontAwesomeIcon icon={faGithub} />
         </a>
 
-        <a href="tel:+2348147982710" class={contactStyle.iconLink}>
+        <a href=" https://wa.me/2348147982710" class={contactStyle.iconLink}>
           <FontAwesomeIcon icon={faWhatsapp} />
         </a>
 
