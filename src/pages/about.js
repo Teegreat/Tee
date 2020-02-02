@@ -31,7 +31,7 @@ const aboutPage = props => {
     <Layout>
       <Head title="About Me" />
       {/* <h1 style={{ marginBottom: "1rem" }}>About Me</h1> */}
-      <div>{profilePicture}</div>
+      <div style={{ justifyContent: "center" }}>{profilePicture}</div>
       <p style={{ marginTop: "1rem", fontSize: "20px" }}>
         I'm a Self taught front-end web developer based in Abuja, Nigeria. I do
         work remotely for both local and international clients.
