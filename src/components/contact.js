@@ -4,7 +4,7 @@ import indexStyles from "../pages/index.module.scss"
 
 export default function Contact() {
   return (
-    <section className="contact py-5">
+    <section className="contact ">
       <div className="row">
         <div className=" col-sm-8 col-md-6 mx-auto">
           <form
@@ -19,7 +19,7 @@ export default function Contact() {
                 className="form-control"
                 name="name"
                 id="name"
-                placeholder="Tee"
+                placeholder="Name"
               />
             </div>
             {/* email */}

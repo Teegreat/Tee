@@ -31,7 +31,7 @@ const HomePage = () => {
         web developer, please feel free to contact me{" "}
         <Link to="/contact">here</Link>.
       </p>
-      <button className={indexStyles.button}>
+      <button style={{ marginTop: "1rem" }} className={indexStyles.button}>
         <Link
           className={indexStyles.button}
           style={{ textDecoration: "none" }}

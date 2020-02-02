@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-// import Contact from "../components/contact"
+import Contact from "../components/contact"
 import contactStyle from "./contact.module.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
@@ -39,6 +39,7 @@ const contactUs = () => {
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
       </div>
+      <Contact />
     </Layout>
   )
 }
