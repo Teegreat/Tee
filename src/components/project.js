@@ -4,7 +4,7 @@ import Logo from "../images/coming-soon.jpg"
 import Redemption from "../images/redemption-blog.jpg"
 import Eggsfertility from "../images/eggsfertitlity.jpg"
 import Zuma from "../images/zuma-publishing.jpg"
-import Sussan from "../images/sussan.png"
+import Sussan from "../images/sussan.jpg"
 
 import indexStyles from "../pages/index.module.scss"
 

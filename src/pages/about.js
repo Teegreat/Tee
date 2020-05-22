@@ -80,7 +80,8 @@ const aboutPage = props => {
       <h1>Why Work With Me</h1>
       <p style={{ fontSize: "20px" }}>
         If there's one thing I love doing, is developing good websites for my
-        clients to give them a unique online presence.
+        clients to give them a unique online presence and help them drive sales
+        to their business.
       </p>
       <p style={{ fontSize: "20px" }}>
         I've spent many years trying to be perfect at what I do, and while I'll
