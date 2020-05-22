@@ -12,7 +12,14 @@ const aboutPage = () => {
 
       <Projects />
       <p style={{ margin: "3rem", textAlign: "center" }}>
-        <Link to="/contact">Want to work with me? Reach out</Link>
+        <Link
+          style={{
+            color: "#FE5B55",
+          }}
+          to="/contact"
+        >
+          Want to work with me? Reach out
+        </Link>
       </p>
     </Layout>
   )

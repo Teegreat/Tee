@@ -4,6 +4,7 @@ import Logo from "../images/coming-soon.jpg"
 import Redemption from "../images/redemption-blog.jpg"
 import Eggsfertility from "../images/eggsfertitlity.jpg"
 import Zuma from "../images/zuma-publishing.jpg"
+import Sussan from "../images/sussan.png"
 
 import indexStyles from "../pages/index.module.scss"
 
@@ -28,7 +29,7 @@ export default function Project() {
                 style={{ marginTop: "2rem" }}
               >
                 <a
-                  href="http://redemptionblog.netlify.com/"
+                  href="http://redemptionblog.netlify.app/"
                   className={indexStyles.button}
                   style={{ textDecoration: "none" }}
                 >
@@ -98,21 +99,21 @@ export default function Project() {
         <div className="col-md-6 col-sm-6 col-10 mt-5 mx-auto">
           <div className="card">
             <img
-              src={Logo}
+              src={Sussan}
               alt="Tee"
               style={{
                 maxWidth: "100%",
               }}
             />
             <div className="card-body">
-              <h5 className="card-title">coming Soon</h5>
+              <h5 className="card-title">Sussan Opata</h5>
               {/* <p className="card-text">some text</p> */}
               <button
                 className={indexStyles.button}
                 style={{ marginTop: "1rem" }}
               >
                 <a
-                  href="#"
+                  href="https://www.sussanopata.com/"
                   className={indexStyles.button}
                   style={{ textDecoration: "none" }}
                 >

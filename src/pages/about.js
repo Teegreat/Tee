@@ -21,11 +21,19 @@ export const query = graphql`
 
 const aboutPage = props => {
   const profilePicture = (
-    <img
-      src={props.data.file.childImageSharp.fixed.src}
-      alt="Toyin"
-      className={aboutStyle.profilePicture}
-    />
+    <div
+      style={{
+        textAlign: "center",
+        alignItems: "center",
+        alignContent: "center",
+      }}
+    >
+      <img
+        src={props.data.file.childImageSharp.fixed.src}
+        alt="Tee the freelancer"
+        className={aboutStyle.profilePicture}
+      />
+    </div>
   )
   return (
     <Layout>
@@ -37,13 +45,24 @@ const aboutPage = props => {
         work remotely for both local and international clients.
       </p>
       <p style={{ fontSize: "20px" }}>
-        I build websites for my clients using WordPress and gatsby. Also, if you
-        want full branding for your startup business or want to take your
-        business to the next level I am very much available to help you achieve
-        your goals.
+        I build websites for my clients using Reactjs (Gatsby) and WordPress.
+        Also, if you want full branding for your startup business or want to
+        take your business to the next level I am very much available to help
+        you achieve your goals.
       </p>
-      <p style={{ fontSize: "20px" }}>
-        <Link to="/contact">Want to work with me? Reach out</Link>
+      <p
+        style={{
+          fontSize: "20px",
+        }}
+      >
+        <Link
+          style={{
+            color: "#FE5B55",
+          }}
+          to="/contact"
+        >
+          Want to work with me? Reach out
+        </Link>
       </p>
 
       <br />

@@ -18,9 +18,10 @@ const contactUs = () => {
   return (
     <Layout>
       <Head title="Contact" />
+      <Contact />
 
       <div className={contactStyle.icons}>
-        <a href="https://twitter.com/TeeDrumz1" class={contactStyle.iconLink}>
+        <a href="https://twitter.com/TeeGreat" class={contactStyle.iconLink}>
           <FontAwesomeIcon icon={faTwitter} />
         </a>
 
@@ -39,7 +40,6 @@ const contactUs = () => {
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
       </div>
-      <Contact />
     </Layout>
   )
 }
