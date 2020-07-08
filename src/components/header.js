@@ -22,7 +22,7 @@ const Header = () => {
           {data.site.siteMetadata.title}
         </Link>
       </h1> */}
-      <a href="http://teethefreelancer.netlify.com/">
+      <a href="http://teethefreelancer.com/">
         <img
           src={Logo}
           alt="Tee"
