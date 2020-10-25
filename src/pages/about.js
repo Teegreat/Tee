@@ -41,13 +41,13 @@ const aboutPage = props => {
       {/* <h1 style={{ marginBottom: "1rem" }}>About Me</h1> */}
       <div style={{ justifyContent: "center" }}>{profilePicture}</div>
       <p style={{ marginTop: "1rem", fontSize: "20px" }}>
-        I'm a Self taught front-end web developer based in Abuja, Nigeria. I do
+        I'm a self-taught Front-End Web Developer based in Abuja, Nigeria. I do
         work remotely for both local and international clients.
       </p>
       <p style={{ fontSize: "20px" }}>
         I build websites for my clients using Reactjs (Gatsby) and WordPress.
         Also, if you want full branding for your startup business or want to
-        take your business to the next level I am very much available to help
+        take your business to the next level, I am very much available to help
         you achieve your goals.
       </p>
       <p
